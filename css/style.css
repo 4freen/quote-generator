@@ -1,0 +1,59 @@
+#bodyStyle {
+  background-color: #800000;
+}
+
+#pageTitle {
+  font-family: 'Codystar', monospace;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.quote-box {
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  border: 10px solid black;
+  border-radius: 20px;
+  background-color: white;
+  height: 50%;
+  width: 80%;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 20px;
+}
+
+button {
+  font-size: 2em;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color: #800000;
+  height: 50px;
+  width: 100%;
+}
+
+#refresh, #tweet {
+  color: white;
+}
+
+#refresh:hover {
+  background-color: #0E8C3A;
+}
+
+#tweet:hover {
+  background-color: #55acee;
+}
+
+.footer {
+  font-family: "Homemade Apple";
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 5%;
+  color: white;
+}
+
+a {
+  color: black;
+}
