@@ -54,11 +54,13 @@ var quoteDet=
 "53. Because you were, are and always will be mine <3"
 ];
 
-var byText = " ~ via codepen.io/4freen/full/pgKKPp/ ";
+var quote;
+var byText = " via afreen.me/quote-generator ";
 function getQuote() {
-  document.getElementById("quoteLine").innerHTML = quoteDet[Math.floor(Math.random()*quoteDet.length)];
+  quote = quoteDet[Math.floor(Math.random()*quoteDet.length)]
+  document.getElementById("quoteLine").innerHTML = quote;
     };
 
 function openTweet(){
-  window.open("https://twitter.com/intent/tweet?text="+quoteDet.quote+byText);
+  window.open("https://twitter.com/intent/tweet?text="+quote+byText);
 };
